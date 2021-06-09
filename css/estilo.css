@@ -1,0 +1,2774 @@
+aside#menu-cortina{
+    width: 290px;           
+    height: 100%;          
+    display: none;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    
+    top: -7px;
+    right: -290px;
+    z-index: 999999;
+    
+    background: rgba(227, 229, 233, 0.72);
+}
+
+aside#menu-cortina a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina a i{
+    font-size: 2.55em;
+    padding: 10px 0 0 0;    
+}
+
+aside#menu-cortina a:hover{
+    color: #000079;
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-cortina a:hover i{
+    color: #000079;
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-cortina a#abrir{
+    left: -65px;
+    color: #000079;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+aside#menu-cortina a#cerrar{
+     left: -65px;
+    color: #000079;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.72);  
+}
+
+aside#menu-cortina nav#menu-moviles{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 10% 15%;
+    position: relative;
+    float: none;    
+}
+
+aside#menu-cortina nav#menu-moviles a{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 60px auto;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000000; 
+    padding: 20px 0 4px;
+    letter-spacing: 0.07em;
+    line-height: 0.75em;   
+}
+
+aside#menu-cortina nav#menu-moviles a:hover{
+   color: #000079;
+   border-bottom: solid 1px #000079;
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina nav#menu-moviles a.activo{
+    width: 40%;
+    color: #000079;
+    border-bottom: solid 2px #000079;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin:0;
+    position: fixed;
+    
+    bottom: 30px;
+    right:  30px;
+    z-index: 9999;
+}
+
+aside#wpp a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    
+    background: #138d3d;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.62);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a i{
+    display: block;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a:hover{
+    background: #fff;
+    transition: all 0.3s ease-in;
+}
+
+aside#wpp a i:hover{
+  color: #000079;
+  transition: all 0.3s ease-in;
+}
+
+header {
+    width: 100%;           
+    height: 90px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #000000;
+}
+
+header article{
+    width: 1200px;           
+    height: 100px;         
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position:relative;    
+}
+
+header article a#logo{
+    width: 158px;
+    height: 60px;
+    display: block;
+    margin: -24px 60px;
+    float: left;
+    position: relative;
+}
+
+header article a#logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal{
+    width: 708px;
+    height: 60px;
+    display: block;
+    margin: 12px -75px 15px 10px;
+    float: right;
+    position: relative; 
+}
+
+header article nav#menu-principal a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 25px;
+    float: left;
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 25px 0 4px;
+    letter-spacing: 0.07em;
+    line-height: 1em;
+}
+
+header article nav#menu-principal a:hover{
+    color: #6868E8;
+    border-bottom: solid 1px #6868E8;
+    transition: all 0.3s ease-in;
+}
+header article nav#menu-principal a.activo{
+    color: #6868E8;
+    border-bottom: solid 1px #6868E8;
+    transition: all 0.3s ease-in;
+}
+main {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 90px auto 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fila-banner{
+    width: 100%;
+    height: 623px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#fila-banner article#cuadro-text{
+    width: 29%;
+    height: 623px;        
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position:relative;
+}
+
+main section#fila-banner article#cuadro-text img{
+    width: 280px;
+    height: auto;
+    display: block;
+    margin: -85px auto;
+    float: none;
+    position: relative;
+    padding: 279px 0 0px;
+}
+
+main section#fila-banner article#cuadro-text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 0px 0px 8px 0px;
+    font-weight: 500;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes{
+    width: 32%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 0px 0px 12px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 1.1em;
+    color: #000079;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logowsp i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logofaceb i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#cuadro-text nav#menu-redes a#logoinstagram i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #000079;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+main section#fila-banner article#banner{
+    width: 71%;           
+    height: 623px;         
+    display: block;
+    margin: 0;
+    float: right;
+    position:relative;
+    background: url(../img/fondos/Banner-homepage.jpg) no-repeat top center #fff;
+    background-size: cover;
+}
+
+main section#fila-banner article#banner img{
+    display: none;
+}
+
+main section#perfil{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #ffffff;
+}
+
+main section#perfil article{
+    width: 1100px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#perfil article figure{
+    width: 440px;
+    height: 360px;
+    display: block;
+    margin: 0px 55px 0 55px;
+    float: left;
+    position: relative;
+    padding: 90px 0;
+}
+
+main section#perfil article figure h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 auto;
+    padding: 25px 0px 10px 0px;
+    font-weight: bold;
+}
+
+main section#perfil article figure h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 0px 0px 22px 0px;
+    font-weight: bold;
+}
+
+main section#perfil article figure img{
+    width: 345px;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+main section#perfil article figure p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+main section#perfil article figure a{
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 163px;
+    right: 309px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#perfil article figure a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#perfil article figure#img{
+    width: 440px;
+    height: 360px;
+    display: block;
+    margin: 0px 55px 0 55px;
+    float: right;
+    position: relative;
+    padding: 90px 0;
+}
+
+main section#perfil article figure#img img{
+    width: 420px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+main section#servicios{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+
+main section#servicios article{
+    width: 1100px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#servicios article h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 65px 0px 8px 0px;
+    font-weight: bold;
+}
+
+main section#servicios article figure{
+    width: 479px;
+    height: 234px;
+    display: block;
+    margin: 75px 30px 75px 30px;
+    float: left;
+    position: relative;  
+}
+
+main section#servicios article figure a{
+    width: 124px;
+    height: auto;
+    display: block;
+    margin: -35px auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+
+main section#servicios article figure img{
+    width: 124px;
+    height: 124px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 50%;
+}
+
+main section#servicios article figure img:hover{
+    opacity: 0.6;
+    transition: all 0.3s ease-in;
+}
+
+main section#servicios article figure h3{
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 52px 0 0 0;
+    margin: 0 0 0 12px;
+    font-weight: bold;
+    float: none;
+}
+
+main section#servicios article figure p{
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 12px;
+    margin: 0 0 0 12px;
+    font-weight: 300;
+    float: none;
+}
+
+main section#servicios article a#boton-os{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 30px;
+    right: 475px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#servicios article a#boton-os:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#galeria-trabajos{
+    width: 100%;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #ffffff;
+}
+
+main section#galeria-trabajos article{
+    width: 1146px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 56px 0px 16px 0px;
+    font-weight: bold;
+}
+
+main section#galeria-trabajos article a{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    bottom: 12px;
+    right: 500px;
+    z-index: 10;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+
+main section#galeria-trabajos article a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#galeria-trabajos article figure#fila-1{
+    width: 166px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 0px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-1 img#img1{
+    width: 166px;
+    height: auto;
+    display: block;
+    margin: 0px 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-1 img#img2{
+    width: 166px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-2{
+    width: 171px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-2 img#img3{
+    width: 171px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-3{
+    width: 231px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-3 img#img4{
+    width: 232px;
+    height: auto;
+    display: block;
+    margin: 0px 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-3 img#img5{
+    width: 232px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-4{
+    width: 174px;
+    height: 269px;
+    display: block;
+    margin: 0px 9px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-4 img#img6{
+    width: 172px;
+    height: auto;
+    display: block;
+    margin: 0 0 18px 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-4 img#img7{
+    width: 172px;
+    height: auto;
+    display: block;
+    margin: 18px 0 0;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5{
+    width: 332px;
+    height: 269px;
+    display: block;
+    margin: 0px 0px 0 9px;
+    float: left;
+    position: relative;
+    padding: 35px 0 0 0;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img8{
+    width: 157px;
+    height: auto;
+    display: block;
+    margin: 0 18px 18px 0px;
+    float: left;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img9{
+    width: 157px;
+    height: auto;
+    display: block;
+    margin: 0 0 18px 9px;
+    float: none;
+    position: relative;
+}
+
+main section#galeria-trabajos article figure#fila-5 img#img10{
+    width: 331px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner-frase{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner-frase article{
+    width: 100%;
+    height: 290px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: url(../img/fondos/Banner-servicios.jpg) no-repeat top center ;
+    background-size: cover;
+}
+main section#banner-frase article h1{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    padding: 110px 0 0;
+}
+main section#libros{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#libros article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#libros article figure#texto1 {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#libros article figure#texto1 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#libros article figure#texto1 p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#libros article figure#texto1 a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#libros article figure#texto1 a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#libros article figure#img1 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#libros article figure#img1 img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#libros article figure#img2 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#libros article figure#img2 img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#periodicos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#periodicos article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#periodicos article figure#texto2 {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#periodicos article figure#texto2 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#periodicos article figure#texto2 p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align:right;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#periodicos article figure#texto2 a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 0 0 70%;
+    float: right;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#periodicos article figure#texto2 a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#periodicos article figure#img3 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#periodicos article figure#img3 img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+main section#periodicos article figure#img4 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#periodicos article figure#img4 img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#revistas{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#revistas article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#revistas article figure#texto3 {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#revistas article figure#texto3 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#revistas article figure#texto3 p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#revistas article figure#texto3 a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#revistas article figure#texto3 a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#revistas article figure#img5 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#revistas article figure#img5 img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#revistas article figure#img6 {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#revistas article figure#img6 img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#otrosservicios{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#otrosservicios article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#otrosservicios article h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    padding: 56px 0px 16px 0px;
+    font-weight: bold;
+}
+main section#otrosservicios article figure#portadas {
+    width: 366px;
+    height: 500px;
+    display: block;
+    padding: 8% 0 0 0;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#otrosservicios article figure#portadas img {
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: none;
+    position: relative;
+}
+main section#otrosservicios article figure#portadas h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 16px 0;
+    font-weight: bold;
+}
+main section#otrosservicios article figure#portadas p {
+    font-family: 'Montserrat';
+    color: #000;
+    margin: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#otrosservicios  article figure#portadas a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10% 26% 0;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#otrosservicios article figure#portadas a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+main section#otrosservicios article figure#publicidad {
+    width: 366px;
+    height: 500px;
+    display: block;
+    padding: 8% 0 0 0;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+
+main section#otrosservicios article figure#publicidad img {
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: none;
+    position: relative;
+}
+main section#otrosservicios article figure#publicidad h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 16px 0;
+    font-weight: bold;
+}
+main section#otrosservicios article figure#publicidad p {
+    font-family: 'Montserrat';
+    color: #000;
+    margin: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#otrosservicios  article figure#publicidad a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 15% 26% 0;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#otrosservicios article figure#publicidad a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+main section#otrosservicios article figure#ilustracion {
+    width: 366px;
+    height: 500px;
+    display: block;
+    padding: 8% 0 0 0;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#otrosservicios article figure#ilustracion img {
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: none;
+    position: relative;
+}
+main section#otrosservicios article figure#ilustracion h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 16px 0;
+    font-weight: bold;
+}
+main section#otrosservicios article figure#ilustracion p {
+    font-family: 'Montserrat';
+    color: #000;
+    margin: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#otrosservicios  article figure#ilustracion  a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10% 26% 0;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#otrosservicios article figure#ilustracion  a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#banner-frase2{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner-frase2 article{
+    width: 100%;
+    height: 290px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: url(../img/fondos/Banner-servicios.jpg) no-repeat top center ;
+    background-size: cover;
+}
+main section#banner-frase2 article h1{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    padding: 110px 0 0;
+}
+main section#marca{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#marca article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#marca article figure#texto-marca {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#marca article figure#texto-marca h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#marca article figure#texto-marca p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#marca article figure#texto-marca a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#marca article figure#texto-marca a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#marca article figure#imagenes-marca {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#marca article figure#imagenes-marca img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#marca article figure#imagenes2-marca {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#marca article figure#imagenes2-marca img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#papeleria{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#papeleria article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#papeleria article figure#texto-papeleria {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#papeleria article figure#texto-papeleria h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#papeleria article figure#texto-papeleria p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align:right;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#papeleria article figure#texto-papeleria a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 0 0 70%;
+    float: right;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#papeleria article figure#texto-papeleria a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#papeleria article figure#imagenes-papeleria {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#papeleria article figure#imagenes-papeleria img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+main section#papeleria article figure#imagenes2-papeleria {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#papeleria article figure#imagenes2-papeleria img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#identidad{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#identidad article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#identidad article figure#texto-identidad {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#identidad article figure#texto-identidad h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#identidad article figure#texto-identidad p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#identidad article figure#texto-identidad a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#identidad article figure#texto-identidad a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#identidad article figure#imagenes-identidad {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#identidad article figure#imagenes-identidad img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#identidad article figure#imagenes2-identidad {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#identidad article figure#imagenes2-identidad img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#banner-frase3{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#banner-frase3 article{
+    width: 100%;
+    height: 290px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: url(../img/fondos/Banner-servicios.jpg) no-repeat top center ;
+    background-size: cover;
+}
+main section#banner-frase3 article h1{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-weight: 600;
+    padding: 110px 0 0;
+}
+main section#portadas{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#portadas article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#portadas article figure#texto-portada  {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#portadas article figure#texto-portada  h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#portadas article figure#texto-portada  p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#portadas article figure#texto-portada  a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#portadas article figure#texto-portada  a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#portadas article figure#img-portada  {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#portadas article figure#img-portada  img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#portadas article figure#img2-portada  {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#portadas article figure#img2-portada  img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#publicitario{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#publicitario article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#publicitario article figure#texto-publicitario {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#publicitario article figure#texto-publicitario h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#publicitario article figure#texto-publicitario p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align:right;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#publicitario article figure#texto-publicitario a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 0 0 70%;
+    float: right;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#publicitario article figure#texto-publicitario a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#publicitario article figure#img-publicitario {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#publicitario article figure#img-publicitario img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+main section#publicitario article figure#img2-publicitario {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#publicitario article figure#img2-publicitario img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#ilustracion{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #FBFBFB;
+}
+main section#ilustracion article{
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#ilustracion article figure#texto-ilustracion  {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 18% 0 0 0;
+}
+main section#ilustracion article figure#texto-ilustracion  h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #000079;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin: 0 auto;
+    font-weight: bold;
+}
+main section#ilustracion article figure#texto-ilustracion  p {
+    font-family: 'Montserrat';
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    float: none;
+}
+main section#ilustracion article figure#texto-ilustracion  a {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    background: #000079;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat';
+}
+main section#ilustracion article figure#texto-ilustracion  a:hover{
+    background:#6868E8;
+    color: #FBFBFB;
+    transition: all 0.3s ease-in;
+}
+
+main section#ilustracion article figure#img-ilustracion  {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#ilustracion article figure#img-ilustracion img{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: 5px 0 auto;
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+main section#ilustracion article figure#img2-ilustracion  {
+    width: 250px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 9% 0 0 0;
+}
+main section#ilustracion article figure#img2-ilustracion  img {
+    width: 98%;
+    height: 48%;
+    display: block;
+    margin: 6px 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 10px;
+}
+main section#galeria { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto 90px; 
+    position: relative; 
+}
+main section#galeria article { 
+    width: 1100px; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    padding: 50px 0 0 0; 
+}
+main section#galeria article nav { 
+    width: 100%; 
+    height: auto; 
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+}
+main section#galeria article nav a { 
+    width: 250px; 
+    height: auto; 
+    float: none; 
+    display: inline-block; 
+    margin: 11px; position: 
+    relative; overflow: hidden; 
+    border-radius: 10px; 
+    transition: all 0.3s ease-in; 
+}
+main section#galeria article nav a img {
+     width: 100%; 
+     height: auto; 
+     float: none; 
+     display: block; 
+     margin: 0 auto; 
+     position: relative; 
+     transition: all 0.3s ease-in;
+ }
+main section#galeria article nav a:hover {
+     opacity: 0.8; 
+     transition: all 0.3s ease-in; 
+}
+main section#galeria article nav a:hover img { 
+    transform: scale(1.03); 
+    transition: all 0.3s ease-in;
+}
+
+.fancybox-container { z-index: 99999 !important; }
+
+footer{ 
+    width: 100%;           
+    height: 440px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative; 
+    bottom: 0;
+    left:0;
+    background: #000000;
+}
+
+footer article#contactame{
+    width: 500px;           
+    height: 100%;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative; 
+}
+
+footer article#contactame a#logo-footer{
+    width: 172px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+
+footer article#contactame a#logo-footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+}
+
+footer article#contactame a#correo{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 66px 0 0 0;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame a#correo:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0 0 0 2px;
+    line-height: 1.5em;
+}
+
+footer article#contactame nav { 
+    width: 24%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 0px 0px 16px;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a:hover{
+    color: #6868E8;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logowsp i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logofaceb i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+footer article#contactame nav a#logoinstagram i{
+    width: 70px;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+    aside#menu-cortina { display: block; }
+    header article a#logo { margin: -24px 95px; }
+    header article nav#menu-principal { display: none; }
+    main section#fila-banner { height: 660px; }
+    main section#fila-banner article#banner { height: 660px; }
+    main section#galeria-trabajos article { width: 962px; }
+    main section#galeria-trabajos article a { right: 410px; }
+    main section#galeria-trabajos article figure#fila-1 { display: none; }
+    main section#galeria-trabajos article figure#fila-2 { margin: 0px 9px 0 0px; }
+    main section#otrosservicios article h1 { padding: 56px 0px 0px 0px; }
+    main section#otrosservicios article figure#portadas a { margin: 10% 29% 0;}
+    main section#otrosservicios article figure#publicidad a { margin: 10% 29% 0;}
+    main section#otrosservicios article figure#ilustracion a { margin: 10% 29% 0;}
+    main section#galeria article { padding: 80px 0 0 0; }
+}
+
+@media only screen and (max-width: 899px){
+    header article {width: 80%;height: 90px;}
+    header article a#logo {margin: -24px -42px;}
+    main section#fila-banner article#cuadro-text img { width: 91%; }
+    main section#fila-banner article#cuadro-text h3 { font-size: 1.3em; padding: 8px 0px 8px 0px; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 43%; }
+    main section#fila-banner article#cuadro-text nav#menu-redes a { font-size: 1em; }
+    main section#perfil article { width: 100%; }
+    main section#perfil article figure { width: 43%; margin: 0 0 0 40px; }
+    main section#perfil article figure h2 { font-size: 1.5em; padding: 25px 0px 3px 0px; }
+    main section#perfil article figure h3 { font-size: 1.3em; padding: 0px 0px 13px 0px; }
+    main section#perfil article figure p { font-size: 0.9em; padding: 0 0 20px; }
+    main section#perfil article figure a { width: 36%; font-size: 0.9em; bottom: auto; right: auto; }
+    main section#perfil article figure#img { width: 43%; margin: 0 40px 0 0; }
+    main section#perfil article figure#img img { width: 100%; }
+    main section#servicios article { width: 100%; }
+    main section#servicios article h1 { font-size: 1.6em; }
+    main section#servicios article a#boton-os { width: 16%; bottom: 8%; right: 42%; font-size: 0.9em; }
+    main section#servicios article figure { width: 40%; margin: 75px 45px 75px 44px; }
+    main section#servicios article figure h3 { font-size: 1em; margin: 0 auto; }
+    main section#servicios article figure p { font-size: 0.9em; margin: 0 auto; }
+    main section#galeria-trabajos article { width: 86%; }
+    main section#galeria-trabajos article h1 { font-size: 1.6em; }
+    main section#galeria-trabajos article figure#fila-2 { width: 18%; height: 44%; margin: 0px 7px 0 0px; }
+    main section#galeria-trabajos article figure#fila-2 img#img3 { width: 100%;}
+    main section#galeria-trabajos article figure#fila-3 { width: 24%; height: 44%; margin: 0px 7px 0 7px; }
+    main section#galeria-trabajos article figure#fila-3 img#img4 { width: 100%; margin: 0px 0 16px 0; }
+    main section#galeria-trabajos article figure#fila-3 img#img5 { width: 100%; margin: 16px 0 0 0; }
+    main section#galeria-trabajos article figure#fila-4 { width: 17%; height: 44%; margin: 0px 7px 0 7px; }
+    main section#galeria-trabajos article figure#fila-4 img#img6 { width: 100%; margin: 0 0 25px 0; }
+    main section#galeria-trabajos article figure#fila-4 img#img7 { width: 100%; }
+    main section#galeria-trabajos article figure#fila-5 { width: 35%; height: 44%; margin: 0px 0px 0 7px;}
+    main section#galeria-trabajos article figure#fila-5 img#img8 { width: 45%; margin: 0 26px 16px 0px; }
+    main section#galeria-trabajos article figure#fila-5 img#img9 { width: 45%; margin: 0 0 16px 9px; }
+    main section#galeria-trabajos article figure#fila-5 img#img10 { width: 100%; }
+    main section#galeria-trabajos article a { width: 13%; font-size: 0.9em; bottom: 9%; right: 44%; }
+    main section#banner-frase article h1 {font-size: 1.6em;}
+    main section#libros article {width: 80%;height: 480px;}
+    main section#libros article figure#texto1 {width: 40%;height: 250px; padding: 10% 0 0 0;}
+    main section#libros article figure#texto1 h2 { font-size: 1.5em; }
+    main section#libros article figure#texto1 p { font-size: 0.9em; }
+    main section#libros article figure#texto1 a { font-size: 0.9em; width: 32%; }
+    main section#libros article figure#img1 {width: 25%;height: 350px;}
+    main section#libros article figure#img2 {width: 25%;height: 350px;}
+    main section#periodicos article {width: 80%;height: 470px;}
+    main section#periodicos article figure#texto2 {width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#periodicos article figure#texto2 h2 { font-size: 1.5em; }
+    main section#periodicos article figure#texto2 p { font-size: 0.9em; }
+    main section#periodicos article figure#texto2 a {margin: 0 0 0 67%; font-size: 0.9em; width: 32%; }
+    main section#periodicos article figure#img3 {width: 25%;height:350px;}
+    main section#periodicos article figure#img4 {width: 25%;height:350px;}
+    main section#revistas article {width: 80%;height: 470px;}
+    main section#revistas article figure#texto3 { width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#revistas article figure#texto3 h2 { font-size: 1.5em; }
+    main section#revistas article figure#texto3 p { font-size: 0.9em; }
+    main section#revistas article figure#texto3 a { font-size: 0.9em; width: 32%; }
+    main section#revistas article figure#img5 {width: 25%;height: 350px;}
+    main section#revistas article figure#img6 {width: 25%;height: 350px;}
+    main section#otrosservicios article {width: 80%;}
+    main section#otrosservicios article h1 { font-size: 1.6em; padding: 68px 0px 16px 0px; }
+    main section#otrosservicios article figure#portadas {width: 33%;height: 400px;}
+    main section#otrosservicios article figure#portadas h3 { font-size: 1em; }
+    main section#otrosservicios article figure#portadas p { font-size: 0.9em; margin: 0 9px; }
+    main section#otrosservicios article figure#portadas a { width: 41%; font-size: 0.9em; margin: 10% 29% 0;}
+    main section#otrosservicios article figure#publicidad {width: 33%;height: 400px;}
+    main section#otrosservicios article figure#publicidad h3 { font-size: 1em; }
+    main section#otrosservicios article figure#publicidad p { font-size: 0.9em; margin: 0 9px; }
+    main section#otrosservicios article figure#publicidad a { width: 41%; font-size: 0.9em; margin: 18% 29% 0;}
+    main section#otrosservicios article figure#ilustracion {width: 33%;height: 400px;}
+    main section#otrosservicios article figure#ilustracion h3 { font-size: 1em; }
+    main section#otrosservicios article figure#ilustracion p { font-size: 0.9em; margin: 0 8px; }
+    main section#otrosservicios article figure#ilustracion a { width: 41%; font-size: 0.9em; margin: 11% 29% 0;}
+    main section#banner-frase2 article h1 { font-size: 1.6em; }
+    main section#marca article {width: 80%;height: 480px;}
+    main section#marca article figure#texto-marca {width: 40%;height: 250px; padding: 10% 0 0 0;}
+    main section#marca article figure#texto-marca h2 { font-size: 1.5em; }
+    main section#marca article figure#texto-marca p { font-size: 0.9em; }
+    main section#marca article figure#texto-marca a { font-size: 0.9em; width: 32%; }
+    main section#marca article figure#imagenes-marca { width: 25%; height: 350px; }
+    main section#marca article figure#imagenes2-marca { width: 25%;height: 350px; }
+    main section#papeleria article {width: 80%;height: 470px;}
+    main section#papeleria article figure#texto-papeleria {width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.5em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 0.9em; }
+    main section#papeleria article figure#texto-papeleria a {margin: 0 0 0 67%; font-size: 0.9em; width: 32%; }
+    main section#papeleria article figure#imagenes-papeleria {width: 25%;height:350px;}
+    main section#papeleria article figure#imagenes2-papeleria {width: 25%;height:350px;}
+    main section#identidad article {width: 80%;height: 470px;}
+    main section#identidad article figure#texto-identidad { width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.5em; }
+    main section#identidad article figure#texto-identidad p { font-size: 0.9em; }
+    main section#identidad article figure#texto-identidad a { font-size: 0.9em; width: 32%; }
+    main section#identidad article figure#imagenes-identidad {width: 25%;height: 350px;}
+    main section#identidad article figure#imagenes2-identidad {width: 25%;height: 350px;}
+    main section#banner-frase3 article h1 { font-size: 1.6em; }
+    main section#portadas article {width: 80%;height: 480px;}
+    main section#portadas article figure#texto-portada {width: 40%;height: 250px; padding: 10% 0 0 0;}
+    main section#portadas article figure#texto-portada h2 { font-size: 1.5em; }
+    main section#portadas article figure#texto-portada p { font-size: 0.9em; }
+    main section#portadas article figure#texto-portada a { font-size: 0.9em; width: 32%; }
+    main section#portadas article figure#img-portada { width: 25%; height: 350px; }
+    main section#portadas article figure#img2-portada { width: 25%;height: 350px; }
+    main section#publicitario article {width: 80%;height: 470px;}
+    main section#publicitario article figure#texto-publicitario {width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.5em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 0.9em; }
+    main section#publicitario article figure#texto-publicitario a {margin: 0 0 0 67%; font-size: 0.9em; width: 32%; }
+    main section#publicitario article figure#img-publicitario {width: 25%;height:350px;}
+    main section#publicitario article figure#img2-publicitario {width: 25%;height:350px;}
+    main section#ilustracion article {width: 80%;height: 470px;}
+    main section#ilustracion article figure#texto-ilustracion { width: 40%;height: 250px;padding: 10% 0 0 0;}
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.5em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 0.9em; }
+    main section#ilustracion article figure#texto-ilustracion a { font-size: 0.9em; width: 32%; }
+    main section#ilustracion article figure#img-ilustracion {width: 25%;height: 350px;}
+    main section#ilustracion article figure#img2-ilustracion {width: 25%;height: 350px;}
+    main section#galeria article { width: 92%; }
+    footer { width: 100%; }
+    footer article#contactame { width: 55%; }
+    footer article#contactame a#correo { font-size: 0.9em; }
+    footer article#contactame p { font-size: 0.9em; }
+}
+
+@media only screen and (max-width: 799px){
+    main section#fila-banner { height: 490px; }
+    main section#fila-banner article#cuadro-text { height: 490px; }
+    main section#fila-banner article#cuadro-text img { padding: 185px 0 0px; }
+    main section#fila-banner article#cuadro-text h3 { font-size: 1.2em; padding: 8% 0px 8px 0px; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { font-size: 1.3em; }
+    main section#perfil { height: 490px; }
+    main section#perfil article { height: 490px; }
+    main section#perfil article figure { width: 41%; height: 60%; margin: -10% 0 0 55px; padding: 0; }
+    main section#perfil article figure h2 { font-size: 1.4em; }
+    main section#perfil article figure h3 { font-size: 1.2em; }
+    main section#perfil article figure p { font-size: 0.875em; }
+    main section#perfil article figure a { font-size: 0.875em; }
+    main section#perfil article figure#img { width: 41%; height: 60%; margin: -10% 55px 0 20px; padding: 0; }
+    main section#servicios article h1 { font-size: 1.5em; }
+    main section#servicios article figure { width: 38%; }
+    main section#servicios article figure p { font-size: 0.875em; }
+    main section#servicios article figure a { font-size: 0.875em; }
+    main section#galeria-trabajos article h1 { font-size: 1.5em; }
+    main section#galeria-trabajos article a { font-size: 0.875em; }
+    main section#galeria-trabajos article figure#fila-2 { width: 20%; margin: 0px 7px 0 27px; }
+    main section#galeria-trabajos article figure#fila-3 { width: 27%; }
+    main section#galeria-trabajos article figure#fila-3 img#img4 { margin: 0px 0 14px 0; }
+    main section#galeria-trabajos article figure#fila-3 img#img5 { margin: 14px 0 0 0; }
+    main section#galeria-trabajos article figure#fila-4 { width: 20%; }
+    main section#galeria-trabajos article figure#fila-4 img#img6 { margin: 0px 0 13px 0; }
+    main section#galeria-trabajos article figure#fila-4 img#img7 { margin: 14px 0 0; }
+    main section#galeria-trabajos article figure#fila-5 { width: 18%; }
+    main section#galeria-trabajos article figure#fila-5 img#img8 { width: 100%;}
+    main section#galeria-trabajos article figure#fila-5 img#img9 { width: 100%; margin: 0; }
+    main section#galeria-trabajos article figure#fila-5 img#img10 { display: none; }
+    main section#libros article figure#texto1 { width: 42%; padding: 12% 0 0 0; }
+    main section#libros article figure#texto1 h2 { font-size: 1.4em; }
+    main section#libros article figure#texto1 p { font-size: 0.875em; }
+    main section#libros article figure#texto1 a { width: 38%; font-size: 0.875em; }
+    main section#libros article figure#img1 { height: 320px; padding: 11% 0 0 0; }
+    main section#libros article figure#img2 { height: 320px; padding: 11% 0 0 0; }
+    main section#periodicos article figure#texto2 { width: 42%; padding: 12% 0 0 0; }
+    main section#periodicos article figure#texto2 h2 { font-size: 1.4em; }
+    main section#periodicos article figure#texto2 p { font-size: 0.875em; }
+    main section#periodicos article figure#texto2 a { width: 38%; font-size: 0.875em; margin: 0 0 0 62%; }
+    main section#periodicos article figure#img3 { height: 320px; padding: 11% 0 0 0; }
+    main section#periodicos article figure#img4 { height: 320px; padding: 11% 0 0 0; }
+    main section#revistas article figure#texto3 { width: 42%; padding: 12% 0 0 0; }
+    main section#revistas article figure#texto3 h2 { font-size: 1.4em; }
+    main section#revistas article figure#texto3 p { font-size: 0.875em; }
+    main section#revistas article figure#texto3 a { width: 38%; font-size: 0.875em; }
+    main section#revistas article figure#img5 { height: 320px; padding: 11% 0 0 0; }
+    main section#revistas article figure#img6 { height: 320px; padding: 11% 0 0 0; }
+    main section#otrosservicios article h1 { font-size: 1.5em;}
+    main section#otrosservicios article figure#portadas p { font-size: 0.875em; }
+    main section#otrosservicios article figure#portadas a { width: 38%; font-size: 0.875em; margin: 10% 32% 0; }
+    main section#otrosservicios article figure#publicidad p { font-size: 0.875em; }
+    main section#otrosservicios article figure#publicidad a { width: 38%; font-size: 0.875em; margin: 18% 32% 0; }
+    main section#otrosservicios article figure#ilustracion p { font-size: 0.875em; }
+    main section#otrosservicios article figure#ilustracion a { width: 38%; font-size: 0.875em; margin: 10% 32% 0; }
+    main section#marca article figure#texto-marca { width: 42%; padding: 12% 0 0 0; }
+    main section#marca article figure#texto-marca h2 { font-size: 1.4em; }
+    main section#marca article figure#texto-marca p { font-size: 0.875em; }
+    main section#marca article figure#texto-marca a { width: 38%; font-size: 0.875em; }
+    main section#marca article figure#imagenes-marca { height: 320px; padding: 11% 0 0 0; }
+    main section#marca article figure#imagenes2-marca { height: 320px; padding: 11% 0 0 0; }
+    main section#papeleria article figure#texto-papeleria { width: 42%; padding: 12% 0 0 0; }
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.4em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 0.875em; }
+    main section#papeleria article figure#texto-papeleria a { width: 38%; font-size: 0.875em; margin: 0 0 0 62%; }
+    main section#papeleria article figure#imagenes-papeleria { height: 320px; padding: 11% 0 0 0; }
+    main section#papeleria article figure#imagenes2-papeleria { height: 320px; padding: 11% 0 0 0; }
+    main section#identidad article figure#texto-identidad { width: 42%; padding: 12% 0 0 0; }
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.4em; }
+    main section#identidad article figure#texto-identidad p { font-size: 0.875em; }
+    main section#identidad article figure#texto-identidad a { width: 38%; font-size: 0.875em; }
+    main section#identidad article figure#imagenes-identidad { height: 320px; padding: 11% 0 0 0; }
+    main section#identidad article figure#imagenes2-identidad { height: 320px; padding: 11% 0 0 0; }
+    main section#portadas article figure#texto-portada { width: 42%; padding: 12% 0 0 0; }
+    main section#portadas article figure#texto-portada h2 { font-size: 1.4em; }
+    main section#portadas article figure#texto-portada p { font-size: 0.875em; }
+    main section#portadas article figure#texto-portada a { width: 38%; font-size: 0.875em; }
+    main section#portadas article figure#img-portada { height: 320px; padding: 11% 0 0 0; }
+    main section#portadas article figure#img2-portada { height: 320px; padding: 11% 0 0 0; }
+    main section#publicitario article figure#texto-publicitario { width: 42%; padding: 12% 0 0 0; }
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.4em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 0.875em; }
+    main section#publicitario article figure#texto-publicitario a { width: 38%; font-size: 0.875em; margin: 0 0 0 62%; }
+    main section#publicitario article figure#img-publicitario { height: 320px; padding: 11% 0 0 0; }
+    main section#publicitario article figure#img2-publicitario { height: 320px; padding: 11% 0 0 0; }
+    main section#ilustracion article figure#texto-ilustracion { width: 42%; padding: 12% 0 0 0; }
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.4em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 0.875em; }
+    main section#ilustracion article figure#texto-ilustracion a { width: 38%; font-size: 0.875em; }
+    main section#ilustracion article figure#img-ilustracion { height: 320px; padding: 11% 0 0 0; }
+    main section#ilustracion article figure#img2-ilustracion { height: 320px; padding: 11% 0 0 0; }
+    main section#galeria article nav a { width: 21%; margin: 13px; }
+    footer article#contactame a#correo { font-size: 0.875em; }
+    footer article#contactame p { font-size: 0.875em; }
+}
+
+@media only screen and (max-width: 599px){
+    main section#fila-banner article#cuadro-text { width: 100%; background: url(../img/fondos/Banner-homepage-op.png) no-repeat top center #ffffff; }
+    main section#fila-banner article#cuadro-text img { width: 42%; padding: 188px 0 0px; }
+    main section#fila-banner article#cuadro-text h3 { padding: 0% 0px 8px 0px; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 17%; }
+    main section#fila-banner article#banner { display: none; }
+    main section#perfil { height: 440px; }
+    main section#perfil article figure { width: 44%; margin: 0 0 0 40px; padding: 17% 0 0 0; }
+    main section#perfil article figure h2 { font-size: 1.3em; padding: 0 0px 3px 0px; }
+    main section#perfil article figure p { font-size: 0.8em; }
+    main section#perfil article figure a { font-size: 0.8em; width: 40%; }
+    main section#perfil article figure#img { width: 36%; margin: 0 40px 0 20px; padding: 17% 0 0 0; }
+    main section#servicios article h1 { font-size: 1.4em; }
+    main section#servicios article a#boton-os { width: 22%; font-size: 0.8em; right: 38%; }
+    main section#servicios article figure { width: 36%; margin: 75px 42px 75px 41px; }
+    main section#servicios article figure a { width: 100px; height: 100px; }
+    main section#servicios article figure img { width: 100%; height: 100%; }
+    main section#servicios article figure h3 { font-size: 0.9em; }
+    main section#servicios article figure p { font-size: 0.8em; }
+    main section#galeria-trabajos { height: 440px; }
+    main section#galeria-trabajos article { height: 440px; }
+    main section#galeria-trabajos article h1 { font-size: 1.4em; }
+    main section#galeria-trabajos article a { font-size: 0.8em; width: 16%; bottom: 14%; }
+    main section#galeria-trabajos article figure#fila-2 { margin: 0px 7px 0 18px; }
+    main section#banner-frase article h1 { font-size: 1.4em; }
+    main section#libros article { width: 89%; height: 380px; }
+    main section#libros article figure#texto1 { width: 47%; }
+    main section#libros article figure#texto1 h2 { font-size: 1.3em; }
+    main section#libros article figure#texto1 p { font-size: 0.8em; }
+    main section#libros article figure#texto1 a { font-size: 0.8em; width: 34%; }
+    main section#libros article figure#img1 { height: 240px; }
+    main section#libros article figure#img2 { height: 240px; }
+    main section#periodicos article { width: 89%; height: 380px; }
+    main section#periodicos article figure#texto2 { width: 47%; }
+    main section#periodicos article figure#texto2 h2 { font-size: 1.3em; }
+    main section#periodicos article figure#texto2 p { font-size: 0.8em; }
+    main section#periodicos article figure#texto2 a { font-size: 0.8em; width: 34%; margin: 0 0 0 67%; }
+    main section#periodicos article figure#img3 { height: 240px; }
+    main section#periodicos article figure#img4 { height: 240px; }
+    main section#revistas article { width: 89%; height: 380px; }
+    main section#revistas article figure#texto3 { width: 47%; }
+    main section#revistas article figure#texto3 h2 { font-size: 1.3em; }
+    main section#revistas article figure#texto3 p { font-size: 0.8em; }
+    main section#revistas article figure#texto3 a { font-size: 0.8em; width: 34%; }
+    main section#revistas article figure#img5 { height: 240px; }
+    main section#revistas article figure#img6 { height: 240px; }
+    main section#banner-frase2 article h1 { font-size: 1.4em; }
+    main section#marca article { width: 89%; height: 380px; }
+    main section#marca article figure#texto-marca { width: 47%; }
+    main section#marca article figure#texto-marca h2 { font-size: 1.3em; }
+    main section#marca article figure#texto-marca p { font-size: 0.8em; }
+    main section#marca article figure#texto-marca a { font-size: 0.8em; width: 34%; }
+    main section#marca article figure#imagenes-marca { height: 240px; }
+    main section#marca article figure#imagenes2-marca { height: 240px; }
+    main section#papeleria article { width: 89%; height: 380px; }
+    main section#papeleria article figure#texto-papeleria { width: 47%; }
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.3em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 0.8em; }
+    main section#papeleria article figure#texto-papeleria a { font-size: 0.8em; width: 34%; margin: 0 0 0 67%; }
+    main section#papeleria article figure#imagenes-papeleria { height: 240px; }
+    main section#papeleria article figure#imagenes2-papeleria { height: 240px; }
+    main section#identidad article { width: 89%; height: 380px; }
+    main section#identidad article figure#texto-identidad { width: 47%; }
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.3em; }
+    main section#identidad article figure#texto-identidad p { font-size: 0.8em; }
+    main section#identidad article figure#texto-identidad a { font-size: 0.8em; width: 34%; }
+    main section#identidad article figure#imagenes-identidad { height: 240px; }
+    main section#identidad article figure#imagenes2-identidad { height: 240px; }
+    main section#banner-frase3 article h1 { font-size: 1.4em; }
+    main section#portadas article { width: 89%; height: 380px; }
+    main section#portadas article figure#texto-portada { width: 47%; }
+    main section#portadas article figure#texto-portada h2 { font-size: 1.3em; }
+    main section#portadas article figure#texto-portada p { font-size: 0.8em; }
+    main section#portadas article figure#texto-portada a { font-size: 0.8em; width: 34%; }
+    main section#portadas article figure#img-portada { height: 240px; }
+    main section#portadas article figure#img2-portada { height: 240px; }
+    main section#publicitario article { width: 89%; height: 380px; }
+    main section#publicitario article figure#texto-publicitario { width: 47%; }
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.3em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 0.8em; }
+    main section#publicitario article figure#texto-publicitario a { font-size: 0.8em; width: 34%; margin: 0 0 0 67%; }
+    main section#publicitario article figure#img-publicitario { height: 240px; }
+    main section#publicitario article figure#img2-publicitario { height: 240px; }
+    main section#ilustracion article { width: 89%; height: 380px; }
+    main section#ilustracion article figure#texto-ilustracion { width: 47%; }
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.3em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 0.8em; }
+    main section#ilustracion article figure#texto-ilustracion a { font-size: 0.8em; width: 34%; }
+    main section#ilustracion article figure#img-ilustracion { height: 240px; }
+    main section#ilustracion article figure#img2-ilustracion { height: 240px; }
+    main section#otrosservicios article { width: 85%; height: 542px; }
+    main section#otrosservicios article h1 { font-size: 1.4em; }
+    main section#otrosservicios article figure#portadas { height: 336px; }
+    main section#otrosservicios article figure#portadas h3 { font-size: 0.9em; }
+    main section#otrosservicios article figure#portadas p { font-size: 0.8em; margin: 0 6px; }
+    main section#otrosservicios article figure#portadas a { font-size: 0.8em; width: 48%; margin: 10% 25% 0; }
+    main section#otrosservicios article figure#publicidad { height: 336px; }
+    main section#otrosservicios article figure#publicidad h3 { font-size: 0.9em; }
+    main section#otrosservicios article figure#publicidad p { font-size: 0.8em; margin: 0 6px; }
+    main section#otrosservicios article figure#publicidad a { font-size: 0.8em; width: 48%; margin: 28% 25% 0; }
+    main section#otrosservicios article figure#ilustracion { height: 336px; }
+    main section#otrosservicios article figure#ilustracion h3 { font-size: 0.9em; }
+    main section#otrosservicios article figure#ilustracion p { font-size: 0.8em; margin: 0 6px; }
+    main section#otrosservicios article figure#ilustracion a { font-size: 0.8em; width: 48%; margin: 10% 25% 0; }
+    main section#galeria article nav a { width: 28%; }
+    footer article#contactame nav { width: 28%; }
+    footer article#contactame nav a { margin: 0px 0px 0px 10px; font-size: 1.2em; }
+}
+
+/* Móviles */
+@media only screen and (max-width: 499px){
+    main section#fila-banner { height: 447px; }
+    main section#fila-banner article#cuadro-text img { width: 45%; }
+    main section#fila-banner article#cuadro-text h3 { padding: 2% 0px 8px 0px; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 20%; }
+    main section#fila-banner article#cuadro-text nav#menu-redes a { margin: 0px 0px 0px 10px; }
+    main section#perfil { height: 702px; }
+    main section#perfil article { height: 447px; }
+    main section#perfil article figure { width: 59%; margin: 0 auto; padding: 13% 0 0 0; float: none; }
+    main section#perfil article figure h2 { font-size: 1.45em; text-align: left; }
+    main section#perfil article figure h3 { font-size: 1.25em; }
+    main section#perfil article figure img { width: 100%; display: block; float: none; }
+    main section#perfil article figure img { padding: 0 0 5% 0; }
+    main section#perfil article figure p { font-size: 1em; }
+    main section#perfil article figure a { font-size: 1em; width: 43%; right: 28%; }
+    main section#perfil article figure#img { display: none}
+    main section#servicios { height: 860px; }
+    main section#servicios article { height: 860px; }
+    main section#servicios article h1 { font-size: 1.5em; }
+    main section#servicios article figure { width: 69%; margin: 0 auto; float: none; padding: 16% 0 0; }
+    main section#servicios article figure h3 { font-size: 1.1em; }
+    main section#servicios article figure p { font-size: 1em; }
+    main section#servicios article a#boton-os { width: 31%; font-size: 1em; bottom: 11%; right: 34%; }
+    main section#galeria-trabajos article h1 { font-size: 1.5em; padding: 45px 0px 6px 0px; }
+    main section#galeria-trabajos article a { font-size: 1em; width: 21%; right: 40%; }
+    main section#galeria-trabajos article figure#fila-2 { width: 28%; margin: 0px 5px 0 3px; }
+    main section#galeria-trabajos article figure#fila-3 { width: 37%; margin: 0px 5px 0 5px; }
+    main section#galeria-trabajos article figure#fila-4 { width: 28%; margin: 0px 5px 0 5px; }
+    main section#galeria-trabajos article figure#fila-5 { display: none; }
+    main section#libros article { height: 700px; }
+    main section#libros article figure#img2 { width: 30%; left: -20%; top: -40%; }
+    main section#libros article figure#img1 { width: 31%; left: -19%; top: -40%; }
+    main section#libros article figure#texto1 { width: 62%; float: none; bottom: -41%; }
+    main section#libros article figure#texto1 h2 { font-size: 1.45em; }
+    main section#libros article figure#texto1 p { font-size: 1em; text-align: justify; }
+    main section#periodicos article { height: 700px; }
+    main section#periodicos article figure#img4 { width: 30%; right: -20%; top: -40%; }
+    main section#periodicos article figure#img3 { width: 31%; right: -19%; top: -40%; }
+    main section#periodicos article figure#texto2 { width: 62%; float: none; bottom: -41%; }
+    main section#periodicos article figure#texto2 h2 { font-size: 1.45em; }
+    main section#periodicos article figure#texto2 p { font-size: 1em; text-align: justify; }
+    main section#revistas article { height: 665px; }
+    main section#revistas article figure#img6 { width: 30%; left: -20%; top: -40%; }
+    main section#revistas article figure#img5 { width: 31%; left: -19%; top: -40%; }
+    main section#revistas article figure#texto3 { width: 62%; float: none; bottom: -46%; }
+    main section#revistas article figure#texto3 h2 { font-size: 1.45em; }
+    main section#revistas article figure#texto3 p { font-size: 1em; text-align: justify; }
+    main section#marca article { height: 635px; }
+    main section#marca article figure#imagenes2-marca { width: 30%; left: -20%; top: -40%; }
+    main section#marca article figure#imagenes-marca { width: 31%; left: -19%; top: -40%; }
+    main section#marca article figure#texto-marca { width: 62%; float: none; bottom: -49%; }
+    main section#marca article figure#texto-marca h2 { font-size: 1.41em; }
+    main section#marca article figure#texto-marca p { font-size: 1em; text-align: justify; }
+    main section#papeleria article { height: 640px; }
+    main section#papeleria article figure#imagenes2-papeleria { width: 30%; right: -20%; top: -40%; }
+    main section#papeleria article figure#imagenes-papeleria { width: 31%; right: -19%; top: -40%; }
+    main section#papeleria article figure#texto-papeleria { width: 62%; float: none; bottom: -48%; }
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.45em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 1em; text-align: justify; }
+    main section#identidad article { height: 655px; }
+    main section#identidad article figure#imagenes2-identidad { width: 30%; left: -20%; top: -40%; }
+    main section#identidad article figure#imagenes-identidad { width: 31%; left: -19%; top: -40%; }
+    main section#identidad article figure#texto-identidad { width: 62%; float: none; bottom: -47%; }
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.45em; }
+    main section#identidad article figure#texto-identidad p { font-size: 1em; text-align: justify; }
+    main section#portadas article { height: 655px; }
+    main section#portadas article figure#img2-portada { width: 30%; left: -20%; top: -40%; }
+    main section#portadas article figure#img-portada { width: 31%; left: -19%; top: -40%; }
+    main section#portadas article figure#texto-portada { width: 62%; float: none; bottom: -46%; }
+    main section#portadas article figure#texto-portada h2 { font-size: 1.41em; }
+    main section#portadas article figure#texto-portada p { font-size: 1em; text-align: justify; }
+    main section#publicitario article { height: 630px; }
+    main section#publicitario article figure#img2-publicitario { width: 30%; right: -20%; top: -40%; }
+    main section#publicitario article figure#img-publicitario { width: 31%; right: -19%; top: -40%; }
+    main section#publicitario article figure#texto-publicitario { width: 62%; float: none; bottom: -49%; }
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.45em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 1em; text-align: justify; }
+    main section#ilustracion article { height: 650px; }
+    main section#ilustracion article figure#img2-ilustracion { width: 30%; left: -20%; top: -40%; }
+    main section#ilustracion article figure#img-ilustracion { width: 31%; left: -19%; top: -40%; }
+    main section#ilustracion article figure#texto-ilustracion { width: 62%; float: none; bottom: -48%; }
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.45em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 1em; text-align: justify; } 
+    main section#otrosservicios article { height: 978px; }
+    main section#otrosservicios article h1 { font-size: 1.5em; }
+    main section#otrosservicios article figure#portadas { width: 43%; height: 238px; float: none; }
+    main section#otrosservicios article figure#portadas img { width: 100%; height: auto; }
+    main section#otrosservicios article figure#portadas h3 { font-size: 1.1em; }
+    main section#otrosservicios article figure#portadas p { display: none; }
+    main section#otrosservicios article figure#portadas a { font-size: 1em; width: 66%; margin: 1% 17% 0; }
+    main section#otrosservicios article figure#publicidad { width: 43%; height: 238px; float: none; }
+    main section#otrosservicios article figure#publicidad img { width: 100%; height: auto; height: 50%; }
+    main section#otrosservicios article figure#publicidad h3 { font-size: 1.1em; }
+    main section#otrosservicios article figure#publicidad p { display: none; }
+    main section#otrosservicios article figure#publicidad a { font-size: 1em; width: 66%; margin: 1% 17% 0; }
+    main section#otrosservicios article figure#ilustracion { width: 43%; height: 238px; float: none; }
+    main section#otrosservicios article figure#ilustracion img { width: 100%; height: 50%; }
+    main section#otrosservicios article figure#ilustracion h3 { font-size: 1.1em; }
+    main section#otrosservicios article figure#ilustracion p { display: none; }
+    main section#otrosservicios article figure#ilustracion a { font-size: 1em; width: 66%; margin: 1% 17% 0; }
+    main section#galeria article nav a { width: 27%; }
+    footer article#contactame nav { width: 34%; }
+}
+
+@media only screen and (max-width: 449px){
+    main section#perfil { height: 655px; }
+    main section#perfil article { height: 655px; }
+    main section#fila-banner article#cuadro-text h3 { padding: 4% 0px 8px 0px; }
+    main section#perfil article figure h2 { font-size: 1.32em; }
+    main section#perfil article figure h3 { font-size: 1.15em; }
+    main section#perfil article figure p { font-size: 0.9em; }
+    main section#perfil article figure a { font-size: 0.9em; }
+    main section#servicios article h1 { font-size: 1.4em; }
+    main section#servicios article a#boton-os { font-size: 0.9em; }
+    main section#servicios article figure h3 { font-size: 1em; }
+    main section#servicios article figure p { font-size: 0.9em; }
+    main section#galeria-trabajos article h1 { font-size: 1.4em; }
+    main section#galeria-trabajos article a { font-size: 0.9em; }
+    main section#galeria-trabajos article figure#fila-2 { width: 31%; margin: 0px 5px 0 47px; }
+    main section#galeria-trabajos article figure#fila-3 { width: 42%; }
+    main section#galeria-trabajos article figure#fila-3 img#img4 { margin: 0px 0 12px 0; }
+    main section#galeria-trabajos article figure#fila-3 img#img5 { margin: 11px 0 0 0; }
+    main section#galeria-trabajos article figure#fila-4 { display: none; }
+    main section#libros article { height: 675px; }
+    main section#libros article figure#texto1 { bottom: -43%; }
+    main section#libros article figure#texto1 h2 { font-size: 1.31em; }
+    main section#libros article figure#texto1 p { font-size: 0.9em; }
+    main section#libros article figure#texto1 a { font-size: 0.9em; }
+    main section#periodicos article { height: 660px; }
+    main section#periodicos article figure#texto2 { bottom: -44%; }
+    main section#periodicos article figure#texto2 h2 { font-size: 1.31em; }
+    main section#periodicos article figure#texto2 p { font-size: 0.9em; }
+    main section#periodicos article figure#texto2 a { font-size: 0.9em; }
+    main section#revistas article { height: 640px; }
+    main section#revistas article figure#texto3 { bottom: -47%; }
+    main section#revistas article figure#texto3 h2 { font-size: 1.31em; }
+    main section#revistas article figure#texto3 p { font-size: 0.9em; }
+    main section#revistas article figure#texto3 a { font-size: 0.9em; }
+    main section#marca article figure#texto-marca h2 { font-size: 1.31em; }
+    main section#marca article figure#texto-marca p { font-size: 0.9em; }
+    main section#marca article figure#texto-marca a { font-size: 0.9em; }
+    main section#papeleria article { height: 625px; }
+    main section#papeleria article figure#texto-papeleria { bottom: -50%; }
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.31em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 0.9em; }
+    main section#papeleria article figure#texto-papeleria a { font-size: 0.9em; }
+    main section#identidad article { height: 630px; }
+    main section#identidad article figure#texto-identidad { bottom: -49%; }
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.31em; }
+    main section#identidad article figure#texto-identidad p { font-size: 0.9em; }
+    main section#identidad article figure#texto-identidad a { font-size: 0.9em; }
+    main section#portadas article { height: 630px; }
+    main section#portadas article figure#texto-portada { bottom: -49%; }
+    main section#portadas article figure#texto-portada h2 { font-size: 1.31em; }
+    main section#portadas article figure#texto-portada p { font-size: 0.9em; }
+    main section#portadas article figure#texto-portada a { font-size: 0.9em; }
+    main section#publicitario article { height: 625px; }
+    main section#publicitario article figure#texto-publicitario { bottom: -50%; }
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.31em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 0.9em; }
+    main section#publicitario article figure#texto-publicitario a { font-size: 0.9em; }
+    main section#ilustracion article { height: 630px; }
+    main section#ilustracion article figure#texto-ilustracion { bottom: -49%; }
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.31em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 0.9em; }
+    main section#ilustracion article figure#texto-ilustracion a { font-size: 0.9em; }
+    main section#otrosservicios article h1 { font-size: 1.4em; }
+    main section#otrosservicios article figure#portadas h3 { font-size: 1em; }
+    main section#otrosservicios article figure#portadas a { font-size: 0.9em; }
+    main section#otrosservicios article figure#publicidad h3 { font-size: 1em; }
+    main section#otrosservicios article figure#publicidad a { font-size: 0.9em; }
+    main section#otrosservicios article figure#ilustracion h3 { font-size: 1em; }
+    main section#otrosservicios article figure#ilustracion a { font-size: 0.9em; }
+    main section#galeria article nav a { width: 29%; margin: 7px; }
+}
+
+@media only screen and (max-width: 399px){
+    main section#fila-banner { height: 375px; }
+    main section#fila-banner article#cuadro-text { height: 375px; }
+    main section#fila-banner article#cuadro-text img { width: 54%; padding: 148px 0 0px; }
+    main section#fila-banner article#cuadro-text nav#menu-redes { width: 24%; }
+    main section#perfil { height: 573px; }
+    main section#perfil article { height: 573px; }
+    main section#perfil article figure h2 { font-size: 1.17em; }
+    main section#perfil article figure h3 { font-size: 1.1em; }
+    main section#perfil article figure p { font-size: 0.8em; }
+    main section#perfil article figure a { font-size: 0.8em; }
+    main section#servicios { height: 798px; }
+    main section#servicios article { height: 798px; }
+    main section#servicios article h1 { font-size: 1.3em; }
+    main section#servicios article a#boton-os { font-size: 0.8em; }
+    main section#servicios article figure h3 { font-size: 0.95em; }
+    main section#servicios article figure p { font-size: 0.8em; }
+    main section#galeria-trabajos { height: 433px; }
+    main section#galeria-trabajos article { height: 433px; }
+    main section#galeria-trabajos article h1 { font-size: 1.3em; }
+    main section#galeria-trabajos article a { font-size: 0.8em; }
+    main section#galeria-trabajos article figure#fila-2 { width: 35%; margin: 0px 5px 0 26px; }
+    main section#galeria-trabajos article figure#fila-3 { width: 47%; }
+    main section#banner-frase article h1 { font-size: 1.3em;}
+    main section#libros article { height: 630px; }
+    main section#libros article figure#img1 { height: 211px; }
+    main section#libros article figure#img2 { height: 210px; }
+    main section#libros article figure#texto1 h2 { font-size: 1.16em; }
+    main section#libros article figure#texto1 p { font-size: 0.8em; }
+    main section#libros article figure#texto1 a { font-size: 0.8em; }
+    main section#periodicos article { height: 617px; }
+    main section#periodicos article figure#img3 { height: 211px; }
+    main section#periodicos article figure#img4 { height: 210px; }
+    main section#periodicos article figure#texto2 { bottom: -45%; }
+    main section#periodicos article figure#texto2 h2 { font-size: 1.16em; }
+    main section#periodicos article figure#texto2 p { font-size: 0.8em; }
+    main section#periodicos article figure#texto2 a { font-size: 0.8em; }
+    main section#revistas article { height: 597px; }
+    main section#revistas article figure#img5 { height: 211px; }
+    main section#revistas article figure#img6 { height: 210px; }
+    main section#revistas article figure#texto3 h2 { font-size: 1.16em; }
+    main section#revistas article figure#texto3 p { font-size: 0.8em; }
+    main section#revistas article figure#texto3 a { font-size: 0.8em; }
+    main section#banner-frase2 article h1 { font-size: 1.3em; }
+    main section#marca article { height: 570px; }
+    main section#marca article figure#imagenes-marca { height: 211px; padding: 6% 0 0 0; }
+    main section#marca article figure#imagenes2-marca { height: 210px; padding: 6% 0 0 0; }
+    main section#marca article figure#texto-marca { bottom: -49%; }
+    main section#marca article figure#texto-marca h2 { font-size: 1.16em; }
+    main section#marca article figure#texto-marca p { font-size: 0.8em; }
+    main section#marca article figure#texto-marca a { font-size: 0.8em; }
+    main section#papeleria article { height: 578px; }
+    main section#papeleria article figure#imagenes-papeleria { height: 211px; }
+    main section#papeleria article figure#imagenes2-papeleria { height: 210px; }
+    main section#papeleria article figure#texto-papeleria { bottom: -50%; }
+    main section#papeleria article figure#texto-papeleria h2 { font-size: 1.16em; }
+    main section#papeleria article figure#texto-papeleria p { font-size: 0.8em; }
+    main section#papeleria article figure#texto-papeleria a { font-size: 0.8em; }
+    main section#identidad article { height: 597px; }
+    main section#identidad article figure#imagenes-identidad { height: 211px; }
+    main section#identidad article figure#imagenes2-identidad { height: 210px; }
+    main section#identidad article figure#texto-identidad h2 { font-size: 1.16em; }
+    main section#identidad article figure#texto-identidad p { font-size: 0.8em; }
+    main section#identidad article figure#texto-identidad a { font-size: 0.8em; }
+    main section#banner-frase3 article h1 { font-size: 1.3em; }
+    main section#portadas article { height: 570px; }
+    main section#portadas article figure#img-portada { height: 211px; padding: 6% 0 0 0; }
+    main section#portadas article figure#img2-portada { height: 210px; padding: 6% 0 0 0; }
+    main section#portadas article figure#texto-portada { bottom: -49%; }
+    main section#portadas article figure#texto-portada h2 { font-size: 1.16em; }
+    main section#portadas article figure#texto-portada p { font-size: 0.8em; }
+    main section#portadas article figure#texto-portada a { font-size: 0.8em; }
+    main section#publicitario article { height: 578px; }
+    main section#publicitario article figure#img-publicitario { height: 211px; }
+    main section#publicitario article figure#img2-publicitario { height: 210px; }
+    main section#publicitario article figure#texto-publicitario { bottom: -50%; }
+    main section#publicitario article figure#texto-publicitario h2 { font-size: 1.16em; }
+    main section#publicitario article figure#texto-publicitario p { font-size: 0.8em; }
+    main section#publicitario article figure#texto-publicitario a { font-size: 0.8em; }
+    main section#ilustracion article { height: 597px; }
+    main section#ilustracion article figure#img-ilustracion { height: 211px; }
+    main section#ilustracion article figure#img2-ilustracion { height: 210px; }
+    main section#ilustracion article figure#texto-ilustracion h2 { font-size: 1.16em; }
+    main section#ilustracion article figure#texto-ilustracion p { font-size: 0.8em; }
+    main section#ilustracion article figure#texto-ilustracion a { font-size: 0.8em; }
+    main section#otrosservicios article h1 { font-size: 1.3em;}
+    main section#otrosservicios article figure#portadas h3 { font-size: 0.89em; }
+    main section#otrosservicios article figure#portadas a { font-size: 0.8em; }
+    main section#otrosservicios article figure#publicidad h3 { font-size: 0.89em; }
+    main section#otrosservicios article figure#publicidad a { font-size: 0.8em; }
+    main section#otrosservicios article figure#ilustracion h3 { font-size: 0.89em; }
+    main section#otrosservicios article figure#ilustracion a { font-size: 0.8em; }
+    main section#galeria article nav a { width: 28%; margin: 8px; }
+    footer article#contactame nav { width: 41%; }
+}
